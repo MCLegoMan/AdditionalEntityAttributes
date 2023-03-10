@@ -5,8 +5,11 @@
   "name": "Additionalentityattributes",
   "description": "Additional Entity Attributes",
   "authors": [
-    "DaFuqs",
-    "Apace100"
+    "DaFuqs"
+  ],
+  "contributors": [
+    "Apace100",
+    "MCLegoMan"
   ],
   "contact": {
     "website": "https://github.com/DaFuqs/AdditionalEntityAttributes",
@@ -19,12 +22,13 @@
       "de.dafuqs.additionalentityattributes.AdditionalEntityAttributes"
     ]
   },
+  "accessWidener": "additionalentityattributes.accesswidener",
   "mixins": [
     "additionalentityattributes.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.11",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": ">=1.19.3"
+    "minecraft": "<=1.19.2"
   }
 }
